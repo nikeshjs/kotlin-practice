@@ -1,3 +1,4 @@
+//Day 0
 fun main() {
     println("Hello World!");
     val name:String = "Umubwebwebwe Unuthwemwebwe Umwebuwosas";
@@ -12,4 +13,14 @@ fun main() {
 
 /* Differences between var and val:
 The variables declared with val cannot be changed later. But, the value of var can be changed.*/
+
+//Day 1
+//The official start of the kotlin learning journey
+name = "Nikesh"; //Generates error, because name is declared with 'val'
+
+//Available datatypes:
+var a:Int = 0;
+var b = 2.0; //Implicitly declared as Double
+
+//Others include: String, Float, Long, Byte,Short, Boolean, Char, UInt, UByte, UShort, ULong (U stands for unsigned)
 

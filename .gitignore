@@ -1,6 +1,7 @@
 # IntelliJ
 .idea/
 *.iml
+production/
 
 # Gradle
 build/
