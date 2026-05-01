@@ -1,4 +1,4 @@
-//Day 0
+//Day 0: Setting up everything
 fun main() {
     println("Hello World!");
     val name:String = "Umubwebwebwe Unuthwemwebwe Umwebuwosas";
@@ -16,7 +16,6 @@ The variables declared with val cannot be changed later. But, the value of var c
 
 //Day 1
 //The official start of the kotlin learning journey
-name = "Nikesh"; //Generates error, because name is declared with 'val'
 
 //Available datatypes:
 var a:Int = 0;
