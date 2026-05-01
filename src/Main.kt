@@ -1,7 +1,7 @@
 //Day 0: Setting up everything
 fun main() {
     println("Hello World!");
-    val name:String = "Umubwebwebwe Unuthwemwebwe Umwebuwosas";
+    val name:String = "John Doe";
     var age = 10;
     println("Hey, $name! You are $age years old");
 
