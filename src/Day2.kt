@@ -16,3 +16,7 @@ var num4 = 1L; //Also declared like this
 var num5 = 2.0; //Double as default
 var num6 = 2.0F; //Declared as float
 
+//Another important thing:
+var num = 2; //Int
+var number: Long = num;  //This creates an error as number is Long and num is Int. Type mismatch
+var number: Long = num.toLong(); //Makes sure both are of the same datatype and holds reference to the same value
