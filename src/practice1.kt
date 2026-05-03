@@ -10,7 +10,7 @@ val marks = arrayOf(
     arrayOf(69,36,45,99,58)     //Marks of roll 3
 );
 
-fun percentage(studentMarks: Array<Int>): Double {
+fun percentage(studentMarks: Array<Int>): Double {  //Calculate the percentage
     var total: Double = 0.0;
     for(mark in studentMarks){
         total += mark;
