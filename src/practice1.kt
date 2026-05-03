@@ -45,3 +45,4 @@ fun main(){
 
     }
 }
+//Here, the things mentioned in main function can be put inside a function block separately.
