@@ -6,7 +6,7 @@ val roll = arrayOf(1,2,3);  //Roll number of students
 val subjects = arrayOf("Science", "Math", "Social", "Opt Math", "Health");  //Name of subjects
 val marks = arrayOf(
     arrayOf(70,65,98,44,56),    //Marks of roll 1 student
-    arrayOf(22,35,68,45,76),
+    arrayOf(22,35,68,45,76),    //Marks of roll 2
     arrayOf(69,36,45,99,58)
 );
 
