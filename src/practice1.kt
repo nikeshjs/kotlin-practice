@@ -2,7 +2,7 @@
 
 
 val students = arrayOf("Nikesh", "Nirjala", "Niroj");   //Student's name
-val roll = arrayOf(1,2,3);
+val roll = arrayOf(1,2,3);  //Roll number of students
 val subjects = arrayOf("Science", "Math", "Social", "Opt Math", "Health");
 val marks = arrayOf(
     arrayOf(70,65,98,44,56),
