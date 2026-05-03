@@ -1,7 +1,7 @@
 //This is the program that lets user enter the roll number of a student and see the obtained marks details along with percentage and remarks.
 
 
-val students = arrayOf("Nikesh", "Nirjala", "Niroj");
+val students = arrayOf("Nikesh", "Nirjala", "Niroj");   //Student's name
 val roll = arrayOf(1,2,3);
 val subjects = arrayOf("Science", "Math", "Social", "Opt Math", "Health");
 val marks = arrayOf(
