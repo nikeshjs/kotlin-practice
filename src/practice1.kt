@@ -11,7 +11,7 @@ val marks = arrayOf(
 );
 
 fun percentage(studentMarks: Array<Int>): Double {  //Calculate the percentage
-    var total: Double = 0.0;    //Total aggregated marks of all subjects
+    var total: Double = 0.0;    //Aggregated marks of all subjects
     for(mark in studentMarks){
         total += mark;
     }
