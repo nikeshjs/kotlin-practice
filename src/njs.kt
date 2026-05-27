@@ -8,4 +8,8 @@ fun main() {
     val requested = "smtp"
     val isSupported = requested.uppercase() in SUPPORTED// Write your code here
     println("Support for $requested: $isSupported")
+
+    val number2word: MutableMap<Int, String> = mutableMapOf(1 to "One", 2 to "Two", 3 to "Three")// Write your code here
+    val n = 2
+    println("$n is spelled as '${number2word[n]}'")
 }
