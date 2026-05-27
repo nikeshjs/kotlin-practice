@@ -7,6 +7,8 @@ fun main() {
     val allCount = greenNumbers.count() + redNumbers.count()
     println(allCount)
 
+
+    //Set: setOf(), mutableSetOf()
     val SUPPORTED = setOf("HTTP", "HTTPS", "FTP")
     val requested = "smtp"
     val isSupported = requested.uppercase() in SUPPORTED// Write your code here
