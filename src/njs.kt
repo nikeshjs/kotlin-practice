@@ -18,4 +18,20 @@ fun main() {
     val number2word: MutableMap<Int, String> = mutableMapOf(1 to "One", 2 to "Two", 3 to "Three")// Write your code here
     val n = 2
     println("$n is spelled as '${number2word[n]}'")
+
+
+    //Use of 'when' keyword
+
+    print("Enter the button: ")
+    val button = readLine()
+
+    val action = when(button){
+        "A" -> "Yes"
+        "B" -> "No"
+        "X" -> "Menu"
+        "Y" -> "Nothing"
+        else -> "There is no such button"
+    }
+
+    println(action)
 }
