@@ -31,5 +31,5 @@ fun main(){
     println("triangle" in shapes)   //false now because triangle is removed
     //any item can be removed with this function at any index.
 
-
+    //Sets are unordered and only store unique items, does not allow duplicates.
 }
