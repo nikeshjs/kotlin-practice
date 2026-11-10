@@ -31,5 +31,15 @@ fun main(){
     println("triangle" in shapes)   //false now because triangle is removed
     //any item can be removed with this function at any index.
 
-    //Sets are unordered and only store unique items, does not allow duplicates.
+    //Sets are unordered and only store unique items, does not allow duplicates. You cannot access an item with a particular index.
+
+    //To change the mutable map to read-only map:
+    val juiceMenu = mutableMapOf("Apple" to 100, "Banana" to 200, "Cherry" to 300)
+    val juiceMenu3 = juiceMenu.toMap()
+    //I could have done:
+    val juiceMenu2: Map<String, Int> = juiceMenu    //They do the same thing.
+
+
+
+
 }
