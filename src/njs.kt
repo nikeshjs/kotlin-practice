@@ -23,7 +23,7 @@ fun main() {
     //Use of 'when' keyword
 
     print("Enter the button: ")
-    val button = readLine()
+    val button = readln()
 
     val action = when(button){
         "A" -> "Yes"
